@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.your-parent-container-class {
+  position: relative; /* Acts as the anchor boundary for the nav */
+  min-height: 100vh;  /* Or whatever height your container needs */
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--ut-navy);
