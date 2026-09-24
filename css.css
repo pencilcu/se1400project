@@ -12,10 +12,5 @@ body {
 }
 
 .nav-list {
-    rotate: 30deg;
-}
-
-
-.nav-list li {
-  padding: 10px 20px;
+    rotate: 10deg;
 }
