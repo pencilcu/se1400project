@@ -11,8 +11,9 @@ body {
     padding: 0px;
 }
 
-.rotated-text {
-  display: inline-block;
-  transform: rotate(90deg); 
-  transform-origin: center center; 
+.vertical-text {
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    gap: 20px;
 }
