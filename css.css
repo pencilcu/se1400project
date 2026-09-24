@@ -12,9 +12,9 @@ body {
 }
 
 .nav-index a {
+    display: flex;
     position: absolute;
+    transform: rotate(-90deg);
     bottom: 0;
     left: 0; 
-    display: flex;
-    transform: rotate(-90deg);
 }
