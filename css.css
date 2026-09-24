@@ -11,7 +11,7 @@ body {
     padding: 0px;
 }
 
-.nav-index {
+.nav-index a {
   display: flex;
   gap: 1rem;                  /* Spacing between your side-by-side links */
   position: absolute;
@@ -20,11 +20,4 @@ body {
   /* Rotate the whole navigation block and lock it to the bottom-left corner */
   transform: rotate(-90deg) translateY(-100%);
   transform-origin: bottom left;
-}
-
-/* 2. Keep the links as clean flex items */
-.nav-index a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;      /* Optional: removes underline */
 }
