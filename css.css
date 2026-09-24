@@ -18,7 +18,8 @@ body {
   margin: 0;
   padding: 0;
   white-space: nowrap;     
-  transform: rotate(90deg);  
+  transform: rotate(90deg);
+  transform-origin: center center; 
 }
 
 
