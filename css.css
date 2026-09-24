@@ -9,18 +9,3 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0px;
-nav {
-    display: flex;
-    gap: 40px;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    display: inline-block; 
-    transform: rotate(90deg); 
-    transform-origin: center center; 
-}
