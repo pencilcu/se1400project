@@ -13,11 +13,8 @@ body {
 
 .nav-index a {
   display: flex;
-  gap: 1rem;                  /* Spacing between your side-by-side links */
+  gap: 1rem;           
   position: absolute;
   bottom: 0;
   left: 0;
-  /* Rotate the whole navigation block and lock it to the bottom-left corner */
-  transform: rotate(-90deg) translateY(-100%);
-  transform-origin: bottom left;
 }
