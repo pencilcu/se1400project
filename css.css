@@ -18,7 +18,7 @@ body {
   bottom: 0;
   left: 0;
   /* Rotate the whole navigation block and lock it to the bottom-left corner */
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   transform-origin: bottom left;
 }
 
