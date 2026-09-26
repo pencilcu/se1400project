@@ -30,9 +30,8 @@ body {
 }
 
 .box-horus {
-    align-items: flex-end;
-    height: 75px;
-    width: 50px;
+    height: 250px;
+    width: 100px;
     margin: 20px;
     background-color: #f5dfa4;   
     border-radius: 8px;  
@@ -41,9 +40,8 @@ body {
 }
 
 .box-Fulgrim {   
-    align-items: flex-end;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin: 20px;
     background-color: #b667e0;   
     border-radius: 8px;   
@@ -52,9 +50,8 @@ body {
 }
 
 .box-Angron {   
-    align-items: flex-end;
-    height: 100px;
-    width: 50px;
+    height: 500px;
+    width: 100px;
     margin: 20px;
     background-color: #ff0f0f;   
     border-radius: 8px;   
