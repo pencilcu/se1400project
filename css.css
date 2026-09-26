@@ -32,7 +32,7 @@ body {
 .box-horus {
     justify-content: flex-end; /* Keeps text at the bottom */
     height: auto;              /* Increases height as content grows */
-    min-height: 100px;
+    min-height: 75px;
     padding: 15px;
     margin: 20px;
     background-color: #f5dfa4;   
@@ -42,7 +42,7 @@ body {
 .box-Fulgrim {   
     justify-content: flex-end; /* Keeps text at the bottom */
     height: auto;              /* Increases height as content grows */
-    min-height: 100px;
+    min-height: 50px;
     padding: 15px;
     margin: 20px;
     background-color: #b667e0;   
