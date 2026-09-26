@@ -38,8 +38,8 @@ body {
     background-color: #f5dfa4;   
     border-radius: 8px;
     display: flex;            
+    justify-content: center; /* Centers text horizontally */
     align-items: flex-end;
-    place-items: center;
     gap: 20px;    
 }
 
@@ -50,8 +50,8 @@ body {
     background-color: #b667e0;   
     border-radius: 8px;   
     display: flex;            
+    justify-content: center; /* Centers text horizontally */
     align-items: flex-end;
-    place-items: center;
     gap: 20px; 
 }
 
@@ -62,7 +62,7 @@ body {
     background-color: #ff0f0f;   
     border-radius: 8px;
     display: flex;            
+    justify-content: center; /* Centers text horizontally */
     align-items: flex-end;
-    place-items: center;
     gap: 20px; 
 }
