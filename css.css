@@ -33,6 +33,22 @@ body {
     padding: 15px;
     height: 400px;
     margin: 20px;
-    background-color: #cc2323;   
+    background-color: #f5dfa4;   
+    border-radius: 8px;          
+}
+
+.box-Fulgrim {   
+    padding: 15px;
+    height: 300px;
+    margin: 20px;
+    background-color: #b667e0;   
+    border-radius: 8px;          
+}
+
+.box-Angron {   
+    padding: 15px;
+    height: 600px;
+    margin: 20px;
+    background-color: #ff0f0f;   
     border-radius: 8px;          
 }
