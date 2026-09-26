@@ -30,7 +30,8 @@ body {
 }
 
 .box-horus {   
-  padding: 15px;               
-  background-color: #f9f9f9;   
-  border-radius: 8px;          
+    padding: 15px;
+    margin: 4px;
+    background-color: #f9f9f9;   
+    border-radius: 8px;          
 }
