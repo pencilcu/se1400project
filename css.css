@@ -35,8 +35,8 @@ body {
     margin: 20px;
     background-color: #f5dfa4;   
     border-radius: 8px;  
-    justify-content: center; /* Centers horizontally */
-    align-items: flex-end;
+    align-content: end;    
+    justify-content: start; 
 }
 
 .box-Fulgrim {   
@@ -45,8 +45,8 @@ body {
     margin: 20px;
     background-color: #b667e0;   
     border-radius: 8px;   
-    justify-content: center; /* Centers horizontally */
-    align-items: flex-end;
+    align-content: end;    
+    justify-content: start; 
 }
 
 .box-Angron {   
@@ -55,6 +55,6 @@ body {
     margin: 20px;
     background-color: #ff0f0f;   
     border-radius: 8px;   
-    justify-content: center; /* Centers horizontally */
-    align-items: flex-end;
+    align-content: end;    
+    justify-content: start; 
 }
