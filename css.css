@@ -3,8 +3,8 @@ html {
 }
 
 .your-parent-container-class {
-  position: relative; /* Acts as the anchor boundary for the nav */
-  min-height: 100vh;  /* Or whatever height your container needs */
+  position: relative; 
+  min-height: 100vh;  
 }
 
 body {
@@ -24,8 +24,13 @@ body {
   left: 0;
 }
 
-/* Optional: Style the links inside the nav */
 .nav-index a {
   text-decoration: none;
-  color: inherit; /* Inherits the page text color */
+  color: inherit; 
+}
+
+.box-horus {   
+  padding: 15px;               
+  background-color: #f9f9f9;   
+  border-radius: 8px;          
 }
