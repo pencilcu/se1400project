@@ -35,7 +35,9 @@ body {
     margin: 20px;
     background-color: #f5dfa4;   
     border-radius: 8px;
-    align-items: end;
+    display: flex;             /* Turns the container into a flexbox */
+    align-items: flex-end;     /* Aligns the children from the bottom */
+    gap: 20px;    
     align-content: end;    
     justify-content: start; 
 }
@@ -46,7 +48,9 @@ body {
     margin: 20px;
     background-color: #b667e0;   
     border-radius: 8px;   
-    align-items: end;
+    display: flex;             /* Turns the container into a flexbox */
+    align-items: flex-end;     /* Aligns the children from the bottom */
+    gap: 20px; 
     align-content: end;    
     justify-content: start; 
 }
@@ -57,7 +61,9 @@ body {
     margin: 20px;
     background-color: #ff0f0f;   
     border-radius: 8px;
-    align-items: end;
+    display: flex;             /* Turns the container into a flexbox */
+    align-items: flex-end;     /* Aligns the children from the bottom */
+    gap: 20px; 
     align-content: end;    
     justify-content: start; 
 }
