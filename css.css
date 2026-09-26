@@ -29,23 +29,30 @@ body {
   color: inherit; 
 }
 
-.box-horus {   
+.box-horus {
+    justify-content: flex-end; /* Keeps text at the bottom */
+    height: auto;              /* Increases height as content grows */
+    min-height: 100px;
     padding: 15px;
-    height: 400px;
     margin: 20px;
     background-color: #f5dfa4;   
     border-radius: 8px;          
 }
 
 .box-Fulgrim {   
+    justify-content: flex-end; /* Keeps text at the bottom */
+    height: auto;              /* Increases height as content grows */
+    min-height: 100px;
     padding: 15px;
-    height: 300px;
     margin: 20px;
     background-color: #b667e0;   
     border-radius: 8px;          
 }
 
 .box-Angron {   
+    justify-content: flex-end; /* Keeps text at the bottom */
+    height: auto;              /* Increases height as content grows */
+    min-height: 100px;
     padding: 15px;
     height: 600px;
     margin: 20px;
