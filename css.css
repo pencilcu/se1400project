@@ -32,27 +32,32 @@ body {
 .box-horus {
     align-items: flex-end;
     height: 75px;
-    padding: 15px;
+    width: 50px;
     margin: 20px;
     background-color: #f5dfa4;   
-    border-radius: 8px;          
+    border-radius: 8px;  
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-end;
 }
 
 .box-Fulgrim {   
     align-items: flex-end;
     height: 50px;
-    padding: 15px;
+    width: 50px;
     margin: 20px;
     background-color: #b667e0;   
-    border-radius: 8px;          
+    border-radius: 8px;   
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-end;
 }
 
 .box-Angron {   
     align-items: flex-end;
     height: 100px;
-    padding: 15px;
-    height: 600px;
+    width: 50px;
     margin: 20px;
     background-color: #ff0f0f;   
-    border-radius: 8px;          
+    border-radius: 8px;   
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-end;
 }
