@@ -82,10 +82,3 @@ body {
     width: 2000px;         /* Forces horizontal scrollbar on narrow screens */
     height: 100%;
 }
-
-.nav-index {
-  display: flex;
-  white-space: nowrap; /* Prevents text from breaking lines */
-  gap: 20px;          /* Adds spacing between your links */
-  padding: 20px;
-}
