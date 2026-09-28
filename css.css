@@ -80,5 +80,5 @@ body {
 .large-content {
     flex-shrink: 0;
     width: 2000px;         /* Forces horizontal scrollbar on narrow screens */
-    height: 2000px;        /* Forces vertical scrollbar */
+    height: 100%;
 }
