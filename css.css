@@ -38,7 +38,7 @@ body {
     background-color: #f5dfa4;   
     border-radius: 8px;
     display: flex;            
-    justify-content: center; /* Centers text horizontally */
+    justify-content: center; 
     align-items: flex-end;
     gap: 20px;    
 }
@@ -68,14 +68,14 @@ body {
 }
 
 .scroll-container {
-  width: 100vw;          /* Take up full screen width */
-  height: 100vh;         /* Take up full screen height */
-  overflow: auto;        /* Enables scrolling in both directions */
-  border: 4px solid #333; /* Optional: just to see the boundary */
+    width: 100vw;          /* Take up full screen width */
+    height: 100vh;         /* Take up full screen height */
+    overflow-x: auto;        /* Enables horizontal scrolling */
+    border: 4px solid #333; /* Optional: just to see the boundary */
 }
 
 /* The massive canvas inside */
 .large-content {
-  width: 2000px;         /* Forces horizontal scrollbar on narrow screens */
-  height: 2000px;        /* Forces vertical scrollbar */
+    width: 2000px;         /* Forces horizontal scrollbar on narrow screens */
+    height: 2000px;        /* Forces vertical scrollbar */
 }
