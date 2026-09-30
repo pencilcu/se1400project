@@ -56,7 +56,8 @@ body {
 }
 
 .box-Angron {   
-    height: 800px;
+    height: 80vh; /* Using viewport height units ensures it scales nicely and leaves room */
+    max-height: 800px;
     width: 200px;
     margin: 20px;
     background-color: #ff0f0f;   
@@ -81,4 +82,5 @@ body {
     flex-shrink: 0;
     width: 2000px;         /* Forces horizontal scrollbar on narrow screens */
     height: 100%;
+    position: relative;
 }
