@@ -27,10 +27,7 @@ body {
   width: 100vw;
   height: 100dvh; 
   box-sizing: border-box; 
-  border-top: 8px #44AF69;
-  border-bottom: 8px #44AF69;
-  border-left: 8px #44AF69;
-  border-right: 8px #44AF69;
+  border: 8px solid #44AF69;
 } 
 .large-content { 
   flex-shrink: 0; width: 1000px; height: 100%; position: relative;
