@@ -1,16 +1,77 @@
 html {
-    scroll-behavior: smooth;
+     scroll-behavior: smooth;
+}
+
+.your-parent-container-class {
+  position: relative; 
+  min-height: 100vh;  
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--ut-navy);
-    background-color: var(--ut-white);
-    line-height: 1.6;
-    margin: 0;
-    padding: 0px;
-    overflow-x: hidden; /* Prevents the viewport breakout entirely */
+    overflow-x: hidden; 
 }
+
+.scroll-container {
+    display: flex; 
+    width: 100%; 
+    height: 100vh; 
+    border: 4px solid #333; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    box-sizing: border-box;
+}
+
+.nav-index {
+    display: flex;
+    align-items: flex-end;    
+    gap: 20px;                 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-index a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.box-Horus {
+    height: 500px;
+    width: 200px;
+    margin: 20px;
+    background-color: #f5dfa4;   
+    border-radius: 8px;
+    display: flex;            
+    justify-content: center; 
+    align-items: flex-end;
+    gap: 20px;    
+}
+
+.box-Fulgrim {   
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    background-color: #b667e0;   
+    border-radius: 8px;   
+    display: flex;            
+    justify-content: center; 
+    align-items: flex-end;
+    gap: 20px; 
+
+.box-Angron {   
+    height: 80vh;
+    max-height: 800px;
+    width: 200px;
+    margin: 20px;
+    background-color: #ff0f0f;   
+    border-radius: 8px;
+    display: flex;            
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px; 
 
 .scroll-container {
     display: flex; 
@@ -19,50 +80,20 @@ body {
     border: 4px solid #333; 
     overflow-x: auto; 
     overflow-y: hidden; /* This stops vertical scrolling */
-    box-sizing: border-box;
-}
-
-.nav-index {
-  display: flex; 
-  align-items: flex-end; 
-  gap: 20px; 
-}
-
-.primarch-box {
-  display: flex; 
-  justify-content: center; 
-  align-items: flex-end; 
-  width: 200px; 
-  padding-bottom: 20px; /* Gives text breathing room at the bottom */
-  border-radius: 8px; 
-  text-decoration: none; 
-  color: #000; /* Ensures text color is readable against bright backgrounds */
-  font-weight: bold;
-  box-sizing: border-box;
-  transition: transform 0.2s ease;
-}
-
-.nav-index a {
-    text-decoration: none;
-    color: inherit; 
-}
-
-.primarch-box:hover {
-  transform: translateY(-5px); /* Soft interactive lift on hover */
-}
-
-.box-Horus { 
-  height: 500px; 
-  background-color: #f5dfa4; 
-}
-
+    
 .box-Fulgrim { 
   height: 300px; 
   background-color: #b667e0; 
 }
 
+/* The massive canvas inside */
+.large-content {
+    flex-shrink: 0;
+    width: 1000px; 
+    height: 100%;
+    position: relative; /* Move this here so the absolute nav aligns to .large-content instead of something else */
+    
 .box-Angron { 
   height: 80vh; 
   max-height: 800px; 
   background-color: #ff0f0f; 
-}
