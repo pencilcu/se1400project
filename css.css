@@ -5,7 +5,7 @@ html {
   position: relative; min-height: 100vh; 
 } 
 body { 
-  font-family: Arial, Helvetica, sans-serif; color: var(--ut-navy); background-color: var(--ut-white); line-height: 1.6; margin: 0; padding: 0px;
+  font-family: Arial, Helvetica, sans-serif; color: var(--ut-navy); background-color: #DBD5B5; line-height: 1.6; margin: 0; padding: 0px;
 } 
 .nav-index { 
   display: flex; align-items: flex-end; gap: 20px; position: absolute; bottom: 0; left: 0; width: 100%; 
@@ -14,23 +14,23 @@ body {
   text-decoration: none; color: inherit; 
 } 
 .box-Horus { 
-  height: 500px; width: 200px; margin: 20px; background-color: #f5dfa4; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
+  height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
 } 
 .box-Fulgrim { 
-  height: 300px; width: 200px; margin: 20px; background-color: #b667e0; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
+  height: 300px; width: 200px; margin: 20px; background-color: #2B9EB3; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
 } 
 .box-Angron { 
-  height: 80vh; max-height: 800px; width: 200px; margin: 20px; background-color: #ff0f0f; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
+  height: 80vh; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; 
 } 
 .scroll-container { 
   display: flex; overflow-x: auto; overflow-y: hidden; 
   width: 100vw;
   height: 100dvh; 
   box-sizing: border-box; 
-  border-top: 8px solid red;
-  border-bottom: 8px solid red;
-  border-left: 8px solid red;
-  border-right: 8px solid red;
+  border-top: 8px #44AF69;
+  border-bottom: 8px #44AF69;
+  border-left: 8px #44AF69;
+  border-right: 8px #44AF69;
 } 
 .large-content { 
   flex-shrink: 0; width: 1000px; height: 100%; position: relative;
