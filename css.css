@@ -25,14 +25,12 @@ body {
 .scroll-container { 
   display: flex; overflow-x: auto; overflow-y: hidden; 
   width: 100vw;
-  height: 100dvh; /* 'dvh' accounts for mobile browser address bars */
-
-  /* 2. Includes the border inside the height calculation */
+  height: 100dvh; 
   box-sizing: border-box; 
-  
-  /* 3. Your visible borders */
-  border-top: 5px solid red;
-  border-bottom: 5px solid red;
+  border-top: 8px solid red;
+  border-bottom: 8px solid red;
+  border-left: 8px solid red;
+  border-right: 8px solid red;
 } 
 .large-content { 
   flex-shrink: 0; width: 1000px; height: 100%; position: relative;
