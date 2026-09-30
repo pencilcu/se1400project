@@ -80,7 +80,7 @@ body {
 /* The massive canvas inside */
 .large-content {
     flex-shrink: 0;
-    width: 2000px; 
+    width: 1000px; 
     height: 100%;
     position: relative; /* Move this here so the absolute nav aligns to .large-content instead of something else */
 }
