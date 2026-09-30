@@ -70,7 +70,8 @@ body {
 
 .scroll-container {
     display: flex;       /* Aligns child items in a single row */
-    width: 100vw;          /* Take up full screen width */
+    width: 100%;          /* Take up full screen width */
+    max-width: 1000px;       /* Restricts the site from growing past 1200px */
     height: 100vh;         /* Take up full screen height */
     border: 4px solid #333; /* Optional: just to see the boundary */
     overflow-x: auto;    /* Enables horizontal scrolling when content overflows */
