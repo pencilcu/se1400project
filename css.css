@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0px;
     overflow-x: hidden; /* Prevents the viewport breakout entirely */
+    overflow-y: hidden; /* Prevents the viewport breakout entirely */
 }
 
 .nav-index {
