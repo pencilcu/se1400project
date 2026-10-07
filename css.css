@@ -10,9 +10,7 @@ body {
 } 
 .nav-index { 
   display: flex; align-items: flex-end; gap: 20px; position: absolute; bottom: 0; width: 100%; 
-  left: 40px;         
-  width: calc(100% - 40px); 
-  padding-left: 40px;     
+  left: 0;         
   box-sizing: border-box; 
 } 
 .nav-index a { 
@@ -35,8 +33,9 @@ body {
   overflow-x: auto; 
   overflow-y: hidden;
   box-sizing: border-box;
+  
 
 } 
 .large-content { 
-  flex-shrink: 0; width: 2000px; height: 100%; position: relative; border: 8px solid #44AF69; box-sizing: border-box;
+  flex-shrink: 0; width: 2000px; height: 100%; position: relative; border: 8px solid #44AF69; box-sizing: border-box; padding-left: 40px;
 } 
