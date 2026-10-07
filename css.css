@@ -10,11 +10,10 @@ body {
 /*line-height: 1.6; margin: 0; padding: 0px;*/
 
 .right-box {
-  width: 50%; /* Covers exactly half the horizontal screen space */
-  background-color: #1f2937; /* Dark background color for contrast */
-  color: #ffffff; /* White text color */
-  padding: 40px; /* Internal spacing for content */
-  box-sizing: border-box; /* Includes padding within the 50% width calculation */
+  width: 300px;             /* Define your box width */
+  padding: 20px;
+  border: 2px solid #333;   /* Makes it look like a box */
+  background-color: #f9f9f9;
 }
 .nav-index { 
   display: flex; align-items: flex-end; gap: 20px; position: absolute; bottom: 0; left: 0; width: 100%; 
