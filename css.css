@@ -30,5 +30,5 @@ body {
   border: 8px solid #44AF69;
 } 
 .large-content { 
-  flex-shrink: 0; width: 1000px; height: 100%; position: relative;
+  flex-shrink: 0; width: 1500px; height: 100%; position: relative;
 } 
