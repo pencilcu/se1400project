@@ -24,9 +24,10 @@ body {
 } 
 .scroll-container { 
   display: flex; 
+  justify-content: end;
   overflow-x: auto; 
   overflow-y: hidden; 
-  width: 100vw;
+  width: 1500px;
   height: 100dvh; 
   box-sizing: border-box; 
 } 
