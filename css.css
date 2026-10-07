@@ -29,8 +29,7 @@ body {
   width: 100vw;
   height: 100dvh; 
   box-sizing: border-box; 
-  border: 8px solid #44AF69;
 } 
 .large-content { 
-  flex-shrink: 0; width: 2000px; height: 100%; position: relative;
+  flex-shrink: 0; width: 2000px; height: 100%; position: relative; border: 8px solid #44AF69;
 } 
