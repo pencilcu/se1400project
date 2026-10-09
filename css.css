@@ -1,6 +1,9 @@
 html { 
   scroll-behavior: smooth; 
 } 
+.your-element {
+  background: #cccccc url('trnava-university-BEEyeib-am8-unsplash.jpg') no-repeat center/cover;
+}
 .your-parent-container-class { 
   position: relative; min-height: 100vh; 
 } 
