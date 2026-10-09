@@ -37,7 +37,6 @@ body {
   flex-shrink: 0; width: 2000px; height: 100%; position: relative; box-sizing: border-box; padding-left: 40px;
 } 
 .side-box {
-  position: fixed; /* or 'absolute' depending on your layout */
   top: 0;
   bottom: 0;
   right: 0;
