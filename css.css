@@ -40,7 +40,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
-  left: 400px; /* Adjust this value to leave space on the left */
+  left: 600px; /* Adjust this value to leave space on the left */
   background-color: #333; /* Just for visibility */
   padding: 20px;
 }
