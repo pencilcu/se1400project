@@ -27,27 +27,10 @@ body {
 .nav-index a { 
   text-decoration: none; color: inherit; 
 } 
-.box-Computer{
-  display: inline-block;
-  background-image: url('blank-desktop-computer.jpg');
-  background-size: contain; 
-  width: 200px; 
-  height: 200px;
-  text-align: center;
-  line-height: 50px;
-  color: white;
-  text-decoration: none;
-  margin-left: 200px; 
-}
-.box-Horus { 
-  height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
-} 
-.box-Fulgrim { 
-  height: 300px; width: 200px; margin: 20px; background-color: #2B9EB3; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
-} 
-.box-Angron { 
-  height: 700px; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0;  
-} 
+.box-Computer{ display: inline-block; background-image: url('blank-desktop-computer.jpg'); background-size: contain; width: 200px; height: 200px; text-align: center; line-height: 50px; color: white; text-decoration: none; margin-left: 200px; }
+.box-Horus { height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; } 
+.box-Fulgrim { height: 300px; width: 200px; margin: 20px; background-color: #2B9EB3; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; } 
+.box-Angron { height: 700px; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; } 
 .large-content { 
   flex-shrink: 0; 
   width: 1500px; 
