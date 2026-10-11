@@ -46,7 +46,7 @@ body {
   height: 300px; width: 200px; margin: 20px; background-color: #2B9EB3; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
 } 
 .box-Angron { 
-  height: 80vh; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0;  
+  height: 700px; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0;  
 } 
 .large-content { 
   flex-shrink: 0; 
