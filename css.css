@@ -39,9 +39,10 @@ body {
   flex-shrink: 0; width: 1500px; height: 100%; position: relative; box-sizing: border-box; padding-left: 40px;
 } 
 .side-box {
+  position: absolute;
   bottom: 0;
   right: 0;
-  left: 600px; /* Adjust this value to leave space on the left */
-  background-color: #333; /* Just for visibility */
+  left: 600px; 
+  background-color: #333; 
   padding: 20px;
 }
