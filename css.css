@@ -36,7 +36,9 @@ body {
   text-align: center;
   line-height: 50px;
   color: white;
+  text-color: white;
   text-decoration: none;
+  padding-left: 50px;
 }
 .box-Horus { 
   height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
@@ -59,7 +61,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 600px; 
+  left: 650px; 
   background-color: #333; 
   padding: 20px;
 }
