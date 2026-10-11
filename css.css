@@ -30,7 +30,6 @@ body {
   display: inline-block;
   background-image: url('blank-desktop-computer.jpg');
   background-size: contain; 
-  background-position: center;
   width: 200px; 
   height: 200px;
   text-align: center;
@@ -38,7 +37,7 @@ body {
   color: white;
   text-color: white;
   text-decoration: none;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 .box-Horus { 
   height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
