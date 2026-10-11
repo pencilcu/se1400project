@@ -26,6 +26,18 @@ body {
 .nav-index a { 
   text-decoration: none; color: inherit; 
 } 
+.box-Computer{
+  display: inline-block;
+  background-image: url('blank-desktop-computer.jpg');
+  background-size: cover; 
+  background-position: center;
+  width: 200px; 
+  height: 2000px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+}
 .box-Horus { 
   height: 500px; width: 200px; margin: 20px; background-color: #FCAB10; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0; 
 } 
@@ -36,7 +48,12 @@ body {
   height: 80vh; max-height: 800px; width: 200px; margin: 20px; background-color: #F8333C; border-radius: 8px; display: flex; justify-content: center; align-items: flex-end; gap: 20px; flex-shrink: 0;  
 } 
 .large-content { 
-  flex-shrink: 0; width: 1500px; height: 100%; position: relative; box-sizing: border-box; padding-left: 40px;
+  flex-shrink: 0; 
+  width: 1500px; 
+  height: 100%; 
+  position: relative; 
+  box-sizing: border-box;
+  padding-left: 40px;
 } 
 .side-box {
   position: absolute;
