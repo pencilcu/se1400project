@@ -10,12 +10,19 @@ body {
   margin: 0; 
   padding: 0px; 
   background: url('1722.jpg'); 
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
   overflow-x: auto; 
   overflow-y: hidden;
 } 
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100vh; /* Matches the image height to the phone screen height */
+        background-position: left top; /* Aligns it nicely to the top left corner */
+        overflow-y: auto; /* Allows vertical scrolling if your content is tall on mobile */
+    }
+}
 .nav-index { 
   display: flex; 
   align-items: flex-end; 
