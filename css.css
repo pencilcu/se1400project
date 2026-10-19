@@ -10,9 +10,8 @@ body {
   margin: 0; 
   padding: 0px; 
   background: url('1722.jpg'); 
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   overflow-x: auto; 
   overflow-y: hidden;
 } 
