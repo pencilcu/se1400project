@@ -25,20 +25,6 @@ body {
         overflow-y: auto;
     }
 }
-.nav-index { 
-  display: flex; 
-  align-items: flex-end; 
-  gap: 20px; 
-  position: absolute; 
-  bottom: 0;
-  width: 100%; 
-  left: 0;         
-  box-sizing: border-box; 
-} 
-.nav-index a { 
-  text-decoration: none; 
-  color: white; 
-} 
 .box-Computer { 
   background-image: url('blank-desktop-computer.jpg'); 
   background-size: contain; 
