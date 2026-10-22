@@ -1,9 +1,7 @@
 html { 
   scroll-behavior: smooth; 
 } 
-.your-parent-container-class { 
-  position: relative; 
-  min-height: 100vh; 
+
 } 
 body { 
   display: grid;
@@ -13,8 +11,6 @@ body {
   background: url('1722.jpg'); 
   background-size: 100%;
   background-repeat: no-repeat;
-  overflow-x: auto; 
-  overflow-y: hidden;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
   grid-template-rows: 1fr;
   overflow-x: auto; 
