@@ -38,11 +38,14 @@ body {
   grid-row: 1;
   justify-self: center;
   align-self: end;
+  justify-items: center;
 }
 
 .box-Horus { 
   height: 500px; 
   width: 200px; 
+  color: white; 
+  text-decoration: none; 
   margin: 20px; 
   background-color: #ED8530; 
   flex-shrink: 0; 
@@ -53,11 +56,14 @@ body {
   margin-bottom: 20px;
   justify-self: center;
   align-self: end;
+  justify-items: center;
 } 
 
 .box-Fulgrim { 
   height: 300px; 
   width: 200px; 
+  color: white; 
+  text-decoration: none; 
   background-color: #4D7374; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -67,12 +73,15 @@ body {
   margin-bottom: 20px;
   justify-self: center;
   align-self: end;
+  justify-items: center;
 } 
 
 .box-Angron { 
   height: 700px; 
   max-height: 800px; 
   width: 200px; 
+  color: white; 
+  text-decoration: none; 
   background-color: #CE1654; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -82,6 +91,7 @@ body {
   margin-bottom: 20px;
   justify-self: center;
   align-self: end;
+  justify-items: center;
 } 
 
 .side-box {
