@@ -34,6 +34,21 @@ body {
   text-decoration: none; 
 }
 
+.hand_reach{
+  display: flex;
+  background-image: url('hand.png');
+  justify-self: center;
+  align-self: end;
+  width: 100px; 
+  height: 100px; 
+  padding: 0.75rem 1.5rem;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.hand_reach:hover,
+:focus{
+  transform: translateY(-20px)
+}
 .box-Computer { 
   display: flex;
   background-image: url('blank-desktop-computer.jpg'); 
