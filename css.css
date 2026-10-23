@@ -37,7 +37,8 @@ body {
   grid-row: 1;
   justify-self: center;
   align-self: end;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-Horus { 
@@ -127,7 +128,6 @@ body {
   align-self: end;
   justify-items: center;
 } 
-
 
 .side-box {
   background-color: #8E2834;       
