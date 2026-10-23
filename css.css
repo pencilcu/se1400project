@@ -54,7 +54,7 @@ body {
 .box-Magnus:hover .hand_reach,
 .box-Computer:focus-within .hand_reach,
 .box-Lionel:focus-within .hand_reach,
-.box-Magnus:focus-within .hand_reach,{
+.box-Magnus:focus-within .hand_reach{
   transform: translateY(-100%);
 }
 
