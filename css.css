@@ -18,6 +18,7 @@ body {
   width: 2000px;  
   align-items: start; 
 } 
+
 @media (max-width: 768px) {
     body {
         background-size: auto 100vh;
@@ -25,6 +26,14 @@ body {
         overflow-y: hidden;
     }
 }
+
+.book-spine{
+  display: flex;
+  justify-content: center;
+  color: white; 
+  text-decoration: none; 
+}
+
 .box-Computer { 
   display: flex;
   background-image: url('blank-desktop-computer.jpg'); 
@@ -45,8 +54,6 @@ body {
 .box-Horus { 
   height: 500px; 
   width: 200px; 
-  color: white; 
-  text-decoration: none; 
   margin: 20px; 
   background-color: #ED8530; 
   flex-shrink: 0; 
@@ -63,8 +70,6 @@ body {
 .box-Fulgrim { 
   height: 300px; 
   width: 200px; 
-  color: white; 
-  text-decoration: none; 
   background-color: #4D7374; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -81,8 +86,6 @@ body {
   height: 700px; 
   max-height: 800px; 
   width: 200px; 
-  color: white; 
-  text-decoration: none; 
   background-color: #CE1654; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -98,8 +101,6 @@ body {
 .box-Lionel { 
   height: 500px; 
   width: 200px; 
-  color: white; 
-  text-decoration: none; 
   margin: 20px; 
   background-color: #ED8530; 
   flex-shrink: 0; 
@@ -112,11 +113,10 @@ body {
   align-self: end;
   justify-items: center;
 } 
+
 .box-Magnus { 
   height: 500px; 
   width: 200px; 
-  color: white; 
-  text-decoration: none; 
   margin: 20px; 
   background-color: #ED8530; 
   flex-shrink: 0; 
