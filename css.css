@@ -21,11 +21,17 @@ body {
 } 
 
 @media (max-width: 768px) {
-    body {
-        background-size: auto 100vh;
-        background-position: left top; 
-        overflow-y: hidden;
-    }
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    position: relative;
+  }
+
+  body {
+    background-size: auto 100vh;
+    background-position: left top;
+  }
 }
 
 .book-spine{
