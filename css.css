@@ -48,7 +48,13 @@ body {
 .box-Angron:hover .hand_reach,
 .box-Horus:focus-within .hand_reach,
 .box-Fulgrim:focus-within .hand_reach,
-.box-Angron:focus-within .hand_reach {
+.box-Angron:focus-within .hand_reach, 
+.box-Computer:hover .hand_reach,
+.box-Lionel:hover .hand_reach,
+.box-Magnus:hover .hand_reach,
+.box-Computer:focus-within .hand_reach,
+.box-Lionel:focus-within .hand_reach,
+.box-Magnus:focus-within .hand_reach,{
   transform: translateY(-100%);
 }
 
