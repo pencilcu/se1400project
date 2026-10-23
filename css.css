@@ -1,5 +1,7 @@
 html { 
   scroll-behavior: smooth; 
+  overflow-x: auto; 
+  overflow-y: hidden;
 } 
 
 body { 
@@ -12,8 +14,6 @@ body {
   background-repeat: no-repeat;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
   grid-template-rows: 1fr;
-  overflow-x: auto; 
-  overflow-y: hidden;
   min-height: 100vh;
   width: max-content; 
   min-width: 100vw;
