@@ -1,7 +1,12 @@
-html { 
-  scroll-behavior: smooth; 
-  overflow-x: auto; 
-  overflow-y: hidden;
+html, body{ 
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden; /* Strictly disable vertical scrolling */
+  overflow-x: auto;   /* Safely allow horizontal scrolling */
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 } 
 
 body { 
@@ -13,7 +18,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 100%;
   min-height: 100vh;
   width: max-content; 
   min-width: 100vw;
