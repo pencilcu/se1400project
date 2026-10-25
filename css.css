@@ -1,8 +1,7 @@
 html, body{ 
   margin: 0;
   padding: 0;
-  height: 1fr;
-  width: 1fr;
+  height: 100vw;
   overflow-y: hidden; 
   overflow-x: auto;  
   -webkit-overflow-scrolling: touch;
