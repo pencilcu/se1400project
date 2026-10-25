@@ -10,8 +10,7 @@ html, body{
   min-height: 100vh; 
   min-width: 100vw;
 } 
-/*   margin: 0; 
-  padding: 0px; */
+/* 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;*/
 
 body { 
   display: grid;
@@ -19,7 +18,7 @@ body {
   background: url('1722.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
-  grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
+  grid-template-columns: 100px 300px 100px 50px repeat(4, 200px 20px) 200px 50px;
   grid-template-rows: 1fr;
   align-items: start; 
 } 
