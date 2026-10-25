@@ -2,11 +2,13 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100vw;
-  width: 100vw;
+  width: max-content;
   overflow-y: hidden; 
   overflow-x: auto;  
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+  min-height: 100vw; 
+  min-width: 100vw;
 } 
 /*   width: max-content;  min-height: 100vh; min-width: 100vw; */
 
