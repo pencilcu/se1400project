@@ -1,7 +1,7 @@
 html, body{ 
   margin: 0;
   padding: 0;
-  height: max-content;
+  height: 100vh;
   width: max-content;
   overflow-y: hidden; 
   overflow-x: auto;  
@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
-  grid-template-rows: 100vh;
+  grid-template-rows: 1fr;
   align-items: start; 
 } 
 
