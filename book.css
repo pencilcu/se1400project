@@ -10,7 +10,7 @@ body {
   margin: 0; 
   padding: 0px; 
   background: url('1722.jpg'); 
-  background-size: 100%; 
+  background-size: auto; 
   overflow-x: auto; 
   overflow-y: hidden;
 } 
