@@ -21,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-position: top left;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 100%;
   align-items: start; 
 } 
 
@@ -31,7 +31,7 @@ body {
   color: white; 
   text-decoration: none; 
 }
-/*
+
 .hand_reach{
   position: absolute;
   top: 100%; 
@@ -41,7 +41,6 @@ body {
   transition: transform 0.3s ease-out;
   transition-delay: 0s;
 }
-<img src="hand.png" alt="Sliding hand" class="hand_reach">
 
 .box-Horus:hover .hand_reach,
 .box-Fulgrim:hover .hand_reach,
@@ -57,7 +56,7 @@ body {
 .box-Magnus:focus-within .hand_reach{
   transform: translateY(-100%);
 }
-*/
+
 .box-Computer { 
   display: flex;
   background-image: url('blank-desktop-computer.jpg'); 
