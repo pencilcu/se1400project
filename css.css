@@ -23,49 +23,7 @@ body {
   grid-template-rows: 100%;
   align-items: start; 
 } 
-@media (min-height: 400px) {
-  html, body {
-    -webkit-overflow-scrolling: touch; 
-  }
 
-  body {
-    /* Switch from a strict grid to a fluid flex row for smooth swiping */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    
-    /* Enable horizontal snapping mechanics */
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding: 0 1.5rem; 
-    gap: 12px; 
-  }
-
-  /* Target all book and computer blocks */
-  [class^="box-"] {
-    width: 45vw; 
-    min-width: 140px;
-    max-width: 200px;
-    flex-shrink: 0; 
-    margin-bottom: 30px;
-    scroll-snap-align: center; 
-  }
-
-  /* Scaled heights optimized for vertical space constraints */
-  .box-Computer { height: 140px; }
-  .box-Horus    { height: 350px; }
-  .box-Fulgrim  { height: 220px; }
-  .box-Angron   { height: 480px; } 
-  .box-Lionel   { height: 350px; }
-  .box-Magnus   { height: 350px; }
-
-  /* Touch Fix: Activate the hand_reach lift effect on press/tap */
-  [class*="box-"]:active .hand_reach,
-  [class*="box-"]:focus-within .hand_reach {
-    transform: translateY(-100%);
-  }
-}
 .book-spine{
   display: flex;
   justify-content: center;
