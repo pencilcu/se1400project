@@ -1,6 +1,7 @@
 html, body{ 
   margin: 0;
   padding: 0;
+  height: 100%;
   height: 100dvh;
   width: max-content;
   overflow-y: hidden; 
@@ -31,7 +32,7 @@ body {
   text-decoration: none; 
 }
 
-.hand_reach{
+.han_reach{
   position: absolute;
   top: 100%; 
   width: 100px; 
