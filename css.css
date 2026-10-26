@@ -9,6 +9,7 @@ html, body{
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   min-height: 100dvh; 
+  max-height: none;
   min-width: 100vw;
 } 
 /* */
