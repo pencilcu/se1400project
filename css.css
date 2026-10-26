@@ -3,9 +3,8 @@ html, body{
   padding: 0;
   height: max-content;
   width: max-content;
-  overflow-y: clip; 
+  overflow-y: hidden; 
   overflow-x: auto;  
-  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   min-height: 100dvh; 
   min-width: 100vw;
