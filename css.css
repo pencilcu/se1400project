@@ -23,7 +23,7 @@ body {
   grid-template-rows: 100%;
   align-items: start; 
 } 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   html, body {
     -webkit-overflow-scrolling: touch; 
   }
