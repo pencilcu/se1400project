@@ -9,4 +9,6 @@ body {
   background-size: auto 100dvh; 
   overflow-x: auto; 
   overflow-y: hidden;
+  grid-template-columns: 0.25fr, 1.5fr, 1.5fr, 0.25fr;
+  grid-template-rows: 100%;
 } 
