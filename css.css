@@ -42,10 +42,6 @@ body {
     gap: 12px; 
   }
 
-  .side-box {
-    display: none; 
-  }
-
   /* Target all book and computer blocks */
   [class^="box-"] {
     width: 45vw; 
