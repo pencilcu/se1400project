@@ -41,6 +41,7 @@ body {
   transition: transform 0.3s ease-out;
   transition-delay: 0s;
 }
+/*
 .box-Horus:hover .hand_reach,
 .box-Fulgrim:hover .hand_reach,
 .box-Angron:hover .hand_reach,
@@ -55,7 +56,7 @@ body {
 .box-Magnus:focus-within .hand_reach{
   transform: translateY(-100%);
 }
-
+*/
 .box-Computer { 
   display: flex;
   background-image: url('blank-desktop-computer.jpg'); 
