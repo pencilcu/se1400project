@@ -23,7 +23,43 @@ body {
   grid-template-rows: 100%;
   align-items: start; 
 } 
+@media (max-width: 768px) {
+  html, body {
+    -webkit-overflow-scrolling: touch; 
+  }
 
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0 1.5rem; 
+    gap: 12px; 
+  }
+  .side-box {
+    display: none;
+  }
+  [class^="box-"] {
+    width: 45vw; 
+    min-width: 140px;
+    max-width: 200px;
+    flex-shrink: 0; 
+    margin-bottom: 30px;
+    scroll-snap-align: center; 
+  }
+  .box-Computer { height: 140px; }
+  .box-Horus    { height: 350px; }
+  .box-Fulgrim  { height: 220px; }
+  .box-Angron   { height: 480px; } 
+  .box-Lionel   { height: 350px; }
+  .box-Magnus   { height: 350px; }
+  
+  [class*="box-"]:active .hand_reach,
+  [class*="box-"]:focus-within .hand_reach {
+    transform: translateY(-100%);
+  }
 .book-spine{
   display: flex;
   justify-content: center;
@@ -42,22 +78,7 @@ body {
   transition-delay: 0s;
   pointer-events: none; 
 }
-/*
-.box-Horus:hover .hand_reach,
-.box-Fulgrim:hover .hand_reach,
-.box-Angron:hover .hand_reach,
-.box-Horus:focus-within .hand_reach,
-.box-Fulgrim:focus-within .hand_reach,
-.box-Angron:focus-within .hand_reach, 
-.box-Computer:hover .hand_reach,
-.box-Lionel:hover .hand_reach,
-.box-Magnus:hover .hand_reach,
-.box-Computer:focus-within .hand_reach,
-.box-Lionel:focus-within .hand_reach,
-.box-Magnus:focus-within .hand_reach{
-  transform: translateY(-100%);
-}
-*/
+
 [class^="box-"]:hover .hand_reach, 
 [class^="box-"]:focus-within .hand_reach { 
   transform: translateY(-100%); 
