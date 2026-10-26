@@ -60,6 +60,7 @@ body {
   [class*="box-"]:focus-within .hand_reach {
     transform: translateY(-100%);
   }
+}
 .book-spine{
   display: flex;
   justify-content: center;
