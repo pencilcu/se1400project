@@ -8,7 +8,7 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100%;
-  width: max-content;
+  width: 200vw;
   overflow-y: hidden; 
   overflow-x: auto;  
   scroll-behavior: smooth;
