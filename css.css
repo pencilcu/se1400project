@@ -8,9 +8,9 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100dvh;
-  width: 100vw;
+  width: 125vw;
   overflow-y: hidden; 
-  overflow-x: hidden;  
+  overflow-x: visible;  
   scroll-behavior: smooth;
 } 
 /* */
