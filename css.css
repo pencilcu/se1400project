@@ -3,6 +3,7 @@
   --blue-green: #4D7374;
   --red: #CE1654;
   --dark-red: #8E2834;
+  --brown: #D75635;
 }
 html, body{ 
   margin: 0;
@@ -163,4 +164,5 @@ body {
   height: 100%;
   align-self: stretch; 
   justify-self: stretch;
+  outline: 5px solid var(--brown); 
 }
