@@ -17,7 +17,7 @@ body {
   display: grid;
   font-family: Arial, Helvetica, sans-serif; 
   background: url('1722.jpg'); 
-  background-size: auto 100dvh; 
+  background-size: auto; 
   background-repeat: repeat-x;
   background-position: top left;
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
@@ -26,7 +26,6 @@ body {
   min-width: 100vw;
   overflow-y: hidden; 
   overflow-x: auto;  
-  height: auto;
 } 
 
 .book-spine{
