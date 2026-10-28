@@ -1,3 +1,8 @@
+:root{
+  --orange-yellow: #ED8530;
+  --blue-green: #4D7374;
+  --red: #CE1654;
+}
 html, body{ 
   margin: 0;
   padding: 0;
