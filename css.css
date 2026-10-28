@@ -7,13 +7,11 @@
 html, body{ 
   margin: 0;
   padding: 0;
-  height: 100svh;
+  height: 100%;
   width: 125vw;
   overflow-y: hidden; 
   overflow-x: auto;  
   scroll-behavior: smooth;
-  min-height: 100dvh; 
-  min-width: 100vw;
 } 
 /* */
 body { 
@@ -26,6 +24,8 @@ body {
   grid-template-columns: 0.5fr 1.5fr 0.5fr 0.15fr repeat(4, 1fr 0.1fr) 1fr 0.15fr;
   grid-template-rows: 100%;
   align-items: start; 
+  min-height: 100dvh; 
+  min-width: 100vw;
 } 
 
 .book-spine{
