@@ -24,7 +24,6 @@ body {
   grid-template-rows: 100%;
   align-items: start; 
   min-width: 100vw;
-  height: 100dvh;
   overflow-y: hidden; 
   overflow-x: auto;  
 } 
