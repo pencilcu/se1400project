@@ -5,6 +5,15 @@
   --dark-red: #8E2834;
   --page-white: white;
 }
+colorchange-orange{
+  background-color: var(--orange-yellow)
+}
+colorchange-blue{
+  background-color: var(--blue-green)
+}
+colorchange-red{
+  background-color: var(--red)
+}
 
 html { 
   scroll-behavior: smooth; 
