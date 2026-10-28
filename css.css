@@ -89,8 +89,8 @@ body {
 } 
 
 .box-Fulgrim { 
-  height: 300px; 
-  width: 200px; 
+  height: 50%; 
+  width: 90%; 
   background-color: #4D7374; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -105,9 +105,8 @@ body {
 } 
 
 .box-Angron { 
-  height: 700px; 
-  max-height: 800px; 
-  width: 200px; 
+  height: 80%; 
+  width: 90%; 
   background-color: #CE1654; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -122,9 +121,8 @@ body {
 } 
 
 .box-Lionel { 
-  height: 500px; 
-  width: 200px; 
-  margin: 20px; 
+  height: 75%; 
+  width: 90%; 
   background-color: #ED8530; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -139,9 +137,8 @@ body {
 } 
 
 .box-Magnus { 
-  height: 500px; 
-  width: 200px; 
-  margin: 20px; 
+  height: 55%; 
+  width: 90%; 
   background-color: #ED8530; 
   flex-shrink: 0; 
   border-radius: 5px;
