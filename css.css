@@ -16,14 +16,6 @@ html, body{
   min-width: 100vw;
 } 
 /* */
-@media (max-width: 640px){
-  body{
-    grid-template-columns: 1fr 1fr;
-  }
-  .side-box{
-    scroll-behavior: smooth; 
-  }
-}
 body { 
   display: grid;
   font-family: Arial, Helvetica, sans-serif; 
