@@ -1,3 +1,11 @@
+:root{
+  --orange-yellow: #ED8530;
+  --blue-green: #4D7374;
+  --red: #CE1654;
+  --dark-red: #8E2834;
+  --page-white: white;
+}
+
 html { 
   scroll-behavior: smooth; 
   height: 100%;
@@ -33,7 +41,7 @@ body {
 .left_page{
   height: 70%; 
   width: 90%; 
-  background-color: white; 
+  background-color: var(--page-white); 
   flex-shrink: 0; 
   border-radius: 5px;
   grid-column: 2/3; 
@@ -57,7 +65,7 @@ body {
 .right_page{
   height: 70%; 
   width: 90%; 
-  background-color: white; 
+  background-color: var(--page-white); 
   flex-shrink: 0; 
   border-radius: 5px;
   grid-column: 3/4; 
