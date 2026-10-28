@@ -39,8 +39,8 @@ body {
   align-self: center;
 }
 .left_page{
-  height: 70%; 
-  width: 90%; 
+  height: 75%; 
+  width: 95%; 
   background-color: var(--page-white); 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -63,8 +63,8 @@ body {
   align-self: center;
 }
 .right_page{
-  height: 70%; 
-  width: 90%; 
+  height: 75%; 
+  width: 95%; 
   background-color: var(--page-white); 
   flex-shrink: 0; 
   border-radius: 5px;
