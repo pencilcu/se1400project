@@ -164,5 +164,5 @@ body {
   height: 100%;
   align-self: stretch; 
   justify-self: stretch;
-  outline: 5px solid var(--brown); 
+  outline: 10px solid var(--brown); 
 }
