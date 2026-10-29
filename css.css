@@ -27,11 +27,12 @@ body {
   overflow-x: auto;  
   width: 125vw;
 } 
-@media(min-width: 640px){ 
+@media(max-width: 640px){ 
   body{ 
     grid-template-columns: 1fr 1fr 1fr; 
     width: 100vw; 
   } 
+  .box-Computer { grid-column: 1/2;
   .box-Horus{ aspect-ratio: 1/1; grid-column: 2/3; } 
   .box-Fulgrim{ aspect-ratio: 1/1; grid-column: 2/3; } 
   .box-Angron{ aspect-ratio: 1/1; grid-column: 2/3; } 
