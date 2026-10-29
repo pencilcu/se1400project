@@ -27,18 +27,68 @@ body {
   overflow-x: auto;  
   width: 125vw;
 } 
-@media(max-width: 640px){ 
-  body{ 
-    grid-template-columns: 1fr 1fr 1fr; 
-    width: 100vw; 
-  } 
-  .box-Computer { grid-column: 1/2; }
-  .box-Horus{  width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Fulgrim{ width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Angron{ width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Lionel{ width: 50%; aspect-ratio: 1/1; grid-column: 3/4; } 
-  .box-Angron{ width: 50%; aspect-ratio: 1/1; grid-column: 3/4; } 
-  .side-box { grid-column: 2/4; }
+@media(max-width: 640px) {
+  body {
+    /* Switch to a clean, single-column stack and let rows auto-size */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100vw;
+    min-width: 100vw;
+    
+    /* Allow the page to scroll down instead of sideways */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px; /* Optional: adds breathing room around stacked elements */
+    box-sizing: border-box;
+  }
+
+  /* Clear the desk/landscape restriction so boxes aren't pinned to the bottom */
+  [class^="box-"], .side-box {
+    align-self: start; 
+  }
+
+  /* Stack each box sequentially by assigning its row */
+  .box-Computer { 
+    grid-column: 1; 
+    grid-row: 1; 
+  }
+  .box-Horus { 
+    width: 100%; /* Boost to 100% or whatever fills your design nicely */
+    aspect-ratio: 1/1; 
+    grid-column: 1; 
+    grid-row: 2; 
+  }
+  .box-Fulgrim { 
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    grid-column: 1; 
+    grid-row: 3; 
+  }
+  .box-Angron { 
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    grid-column: 1; 
+    grid-row: 4; 
+  }
+  .box-Lionel { 
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    grid-column: 1; 
+    grid-row: 5; 
+  }
+
+  .box-Magnus { 
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    grid-column: 1; 
+    grid-row: 6; 
+  }
+  .side-box { 
+    grid-column: 1; 
+    grid-row: 7; 
+    height: 200px; 
+  }
+}
 }
 .book-spine{
   display: flex;
