@@ -37,6 +37,7 @@ body {
   .box-Angron{ aspect-ratio: 1/1; grid-column: 2/3; } 
   .box-Lionel{ aspect-ratio: 1/1; grid-column: 3/4; } 
   .box-Angron{ aspect-ratio: 1/1; grid-column: 3/4; } 
+  .side-box { grid-column: 2/4; }
 }
 .book-spine{
   display: flex;
