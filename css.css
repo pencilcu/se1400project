@@ -27,7 +27,7 @@ body {
   overflow-x: auto;  
   width: 125vw;
 } 
-@media(min-width: 640){ 
+@media(min-width: 640px){ 
   body{ 
     grid-template-columns: 1fr 1fr 1fr; 
     width: 100vw; 
