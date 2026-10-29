@@ -27,7 +27,17 @@ body {
   overflow-x: auto;  
   width: 125vw;
 } 
-
+@media(min-width: 640){ 
+  body{ 
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 100vw; 
+  } 
+  .box-Horus{ aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Fulgrim{ aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Angron{ aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Lionel{ aspect-ratio: 1/1; grid-column: 3/4; } 
+  .box-Angron{ aspect-ratio: 1/1; grid-column: 3/4; } 
+}
 .book-spine{
   display: flex;
   justify-content: center;
