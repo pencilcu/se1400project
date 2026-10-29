@@ -32,12 +32,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr; 
     width: 100vw; 
   } 
-  .box-Computer { grid-column: 1/2;
-  .box-Horus{ aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Fulgrim{ aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Angron{ aspect-ratio: 1/1; grid-column: 2/3; } 
-  .box-Lionel{ aspect-ratio: 1/1; grid-column: 3/4; } 
-  .box-Angron{ aspect-ratio: 1/1; grid-column: 3/4; } 
+  .box-Computer { grid-column: 1/2; }
+  .box-Horus{  width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Fulgrim{ width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Angron{ width: 50%; aspect-ratio: 1/1; grid-column: 2/3; } 
+  .box-Lionel{ width: 50%; aspect-ratio: 1/1; grid-column: 3/4; } 
+  .box-Angron{ width: 50%; aspect-ratio: 1/1; grid-column: 3/4; } 
   .side-box { grid-column: 2/4; }
 }
 .book-spine{
