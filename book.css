@@ -6,13 +6,13 @@
   --page-white: #FBCC9E;
 }
 colorchange-orange{
-  background-color: var(--orange-yellow)
+  background-color: var(--orange-yellow);
 }
 colorchange-blue{
-  background-color: var(--blue-green)
+  background-color: var(--blue-green);
 }
 colorchange-red{
-  background-color: var(--red)
+  background-color: var(--red);
 }
 
 html { 
