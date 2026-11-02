@@ -38,7 +38,7 @@ body {
 .left_cover{
   height: 80%; 
   width: 100%; 
-  background-color: #ED8530; 
+  background-color: var(--orange-yellow); 
   flex-shrink: 0; 
   border-radius: 5px;
   grid-column: 2/3; 
@@ -62,7 +62,7 @@ body {
 .right_cover{
   height: 80%; 
   width: 100%; 
-  background-color: #ED8530; 
+  background-color: var(--orange-yellow); 
   flex-shrink: 0; 
   border-radius: 5px;
   grid-column: 3/4; 
