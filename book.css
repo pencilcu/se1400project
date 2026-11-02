@@ -5,13 +5,13 @@
   --dark-red: #8E2834;
   --page-white: #FBCC9E;
 }
-colorchange-orange{
+.colorchange-orange{
   background-color: var(--orange-yellow);
 }
-colorchange-blue{
+.colorchange-blue{
   background-color: var(--blue-green);
 }
-colorchange-red{
+.colorchange-red{
   background-color: var(--red);
 }
 
