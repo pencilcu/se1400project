@@ -27,7 +27,7 @@ body {
   margin: 0; 
   padding: 0px; 
   background: url('1722.jpg'); 
-  background-size: auto 100dvh; 
+  background-size: 100% auto; 
   overflow-x: auto; 
   overflow-y: hidden;
   grid-template-columns: 0.15fr 1.5fr 1.5fr 0.15fr;
