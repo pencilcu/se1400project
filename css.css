@@ -24,7 +24,7 @@ body {
   min-width: 100vw;
   min-height: 100dvh;
   overflow-y: hidden; 
-  overflow-x: auto;  
+  overflow-x: hidden;  
   width: 100vw;
 } 
 
@@ -57,7 +57,7 @@ body {
   display: flex;
   background-image: url('blank-desktop-computer.jpg'); 
   background-size: contain; 
-  width: 50%; 
+  width: 80%; 
   aspect-ratio: 1 / 1; 
   line-height: 50px; 
   color: white; 
