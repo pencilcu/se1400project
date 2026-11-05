@@ -165,7 +165,7 @@ body {
   justify-self: stretch;
   outline: 10px solid var(--brown); 
 }
-@media(min-width: 640px){
+@media(max-width: 640px){
   body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
