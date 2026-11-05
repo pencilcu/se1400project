@@ -165,3 +165,37 @@ body {
   justify-self: stretch;
   outline: 10px solid var(--brown); 
 }
+@media(min-width: 640px){
+  body{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .box-Computer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .box-Horus{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .box-Fulgrim{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .box-Angron{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .box-Lionel{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .box-Magnus{
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .side-box{
+    grid-column: 2/4;
+    grid-row: 1/4;
+  }
+}
