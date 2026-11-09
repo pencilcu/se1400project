@@ -98,8 +98,8 @@ body {
   align-self: center;
 }
 .computer_screen{
-  height: 78%; 
-  width: 95%; 
+  height: 75%; 
+  width: 98%; 
   background-color: black; 
   flex-shrink: 0; 
   border-radius: 5px;
