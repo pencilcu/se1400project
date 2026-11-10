@@ -10,6 +10,9 @@ html, body{
   padding: 0;
   scroll-behavior: smooth;
 } 
+a {
+  font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
+}
 /* */
 body { 
   display: grid;
@@ -179,7 +182,7 @@ body {
     grid-row: 3/4;
   }
   .box-Fulgrim{
-    grid-column: 2/3
+    grid-column: 2/3;
     grid-row: 3/4;
   }
   .box-Angron{
@@ -191,7 +194,7 @@ body {
     grid-row: 5/6;
   }
   .box-Magnus{
-    grid-column: 4/5;
+    grid-column: 2/3;
     grid-row: 3/4;
   }
   .side-box{
