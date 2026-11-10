@@ -179,31 +179,31 @@ body {
   .box-Horus{
     grid-column: 1/2;
     grid-row: 3/4;
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1/1;
   }
   .box-Fulgrim{
     grid-column: 2/3;
     grid-row: 4/5;
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1/1;
   }
   .box-Angron{
     grid-column: 1/2;
     grid-row: 4/5;
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1/1;
   }
   .box-Lionel{
     grid-column: 1/2;
     grid-row: 5/6;
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1/1;
   }
   .box-Magnus{
     grid-column: 2/3;
     grid-row: 3/4;
-    width: 70%;
+    width: 50%;
     aspect-ratio: 1/1;
   }
   .side-box{
