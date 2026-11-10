@@ -104,10 +104,10 @@ body {
 
 @keyframes knifeAnimation {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0px, 0px);
   }
   100% {
-    transform: translate(calc(-100vw + 100%), calc(100vh - 100%));
+    transform: translate(-100px, 100px); 
   }
 }
 
