@@ -11,7 +11,7 @@ html, body{
   scroll-behavior: smooth;
 } 
 a {
-  font-size: clamp(1rem, 0.5vw + 0.875rem, 1.125rem)
+  font-size: clamp(0.8rem, 0.5vw + 0.875rem, 1.125rem)
 }
 /* */
 body { 
@@ -179,31 +179,31 @@ body {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 80%;
-    height: 90%; 
+    height: 80%; 
   }
   .box-Fulgrim{
     grid-column: 2/3;
     grid-row: 4/5;
     width: 80%;
-    height: 90%; 
+    height: 80%; 
   }
   .box-Angron{
     grid-column: 1/2;
     grid-row: 4/5;
     width: 80%;
-    height: 90%; 
+    height: 80%; 
   }
   .box-Lionel{
     grid-column: 1/2;
     grid-row: 5/6;
     width: 80%;
-    height: 90%; 
+    height: 80%; 
   }
   .box-Magnus{
     grid-column: 2/3;
     grid-row: 3/4;
     width: 80%;
-    height: 90%; 
+    height: 80%; 
   }
   .side-box{
     grid-column: 1/3;
