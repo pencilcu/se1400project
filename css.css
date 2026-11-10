@@ -11,7 +11,7 @@ html, body{
   scroll-behavior: smooth;
 } 
 a {
-  font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
+  font-size: clamp(1rem, 0.5vw + 0.875rem, 1.125rem)
 }
 /* */
 body { 
@@ -26,7 +26,6 @@ body {
   align-items: start; 
   min-width: 100vw;
   min-height: 100dvh;
-  overflow-y: hidden; 
   overflow-x: hidden;  
   width: 100vw;
 } 
