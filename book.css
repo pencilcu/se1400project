@@ -123,3 +123,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+.move_middle{
+  justify-content: center; 
+  align-items: center; 
+}
