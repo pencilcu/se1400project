@@ -11,7 +11,7 @@ html, body{
   scroll-behavior: smooth;
 } 
 a {
-  font-size: clamp(0.8rem, 0.5vw + 0.875rem, 1.125rem)
+  font-size: clamp(0.8rem, 0.5vw + 0.875rem, 2rem)
 }
 /* */
 body { 
