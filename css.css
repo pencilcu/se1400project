@@ -170,7 +170,7 @@ body {
 }
 @media(max-width: 768px){
   body{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
   .box-Computer{
@@ -199,6 +199,6 @@ body {
   }
   .side-box{
     grid-column: 1/3;
-    grid-row: 1/6;
+    grid-row: 3/6;
   }
 }
