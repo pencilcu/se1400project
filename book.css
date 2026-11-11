@@ -115,10 +115,11 @@ body {
 }
 
 .knife {
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: auto;
+  aspect-ratio: 1/1;
   position: relative;
-  background-color: red;
+  background: url('pocket-knife.png'); 
   animation-name: knifeAnimation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
