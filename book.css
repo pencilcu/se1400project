@@ -141,14 +141,4 @@ body {
   justify-content: center;
   align-items: center;
 }
-  position: relative;
-  background: url('pocket-knife.png'); 
-  animation-name: knifeAnimation;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-.move_middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
