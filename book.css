@@ -150,6 +150,7 @@ body {
 #fadingImage {
   width: 100%;
   height: auto;
+  z-index: 2; 
   border-radius: 8px;
   transition: opacity 0.05s ease-out; 
 }
