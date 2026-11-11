@@ -1,11 +1,10 @@
-const imperium = document.querySelector("im");
-const xenos = document.querySelector("xs");
-const chaos = document.querySelector("cs");
+const buttons = document.querySelector("choice_buttons");
+const feedback = document.querySelector("choice-feedback");
 
-imperium.addEventListener('click', function(){
-  const intercont = document.querySelector("#interests-content");
-  intercont.classList.toggle('hidden');
-      if (intercont.classList.contains('hidden')) {
-        .textContent = 'Show';
+buttons.addEventListener('click', function(){
+  const button = event.target.value;
+    if (button == "im") {
+      feedback.textContent = 'Good Choice';
     } 
 });
+
