@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primarchs of Warhammer</title>
     <link rel="stylesheet" href="book.css">
-    <script>
-        const slider = document.getElementById('fadeSlider');
-        const image = document.getElementById('fadingImage');
-
-        slider.addEventListener('input', function() {
-        image.style.opacity = this.value;
-        });
-    </script>
 </head>
 <body>
     <div class = "left_cover" style="background-color: #ED8530;"></div>
@@ -25,5 +17,13 @@
         <img src="Green_Tree_PNG_Clip_Art-1098.png" alt="Fading Image" id="fadingImage">
         </div>
     </div>
+    <script>
+        const slider = document.getElementById('fadeSlider');
+        const image = document.getElementById('fadingImage');
+
+        slider.addEventListener('input', function() {
+        image.style.opacity = this.value;
+        });
+    </script>
 </body>
 </html>
