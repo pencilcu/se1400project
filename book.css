@@ -132,6 +132,28 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px auto;
+  width: 300px;
+}
+
+#fadeSlider {
+  width: 100%;
+  cursor: pointer;
+}
+
+#fadingImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: opacity 0.05s ease-out; 
+}
+
 @media(max-width: 768px){
   body { 
     grid-template-columns: 100%;
