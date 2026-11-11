@@ -166,6 +166,15 @@ body {
   justify-self: stretch;
   outline: 10px solid var(--brown); 
 }
+.hidden-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; 
+  font-size: 2rem;
+  font-weight: bold;
+}
 @media(max-width: 768px){
   body{
     grid-template-columns: 1fr 1fr;
