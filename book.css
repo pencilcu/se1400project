@@ -115,19 +115,6 @@ body {
 }
 
 .knife {
-@keyframes knifeAnimation {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  50% {
-    transform: translate(-100px, 100px); 
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-
-.knife {
   width: 100px;
   height: 100px;
   position: relative;
@@ -139,6 +126,7 @@ body {
   background-repeat: no-repeat; 
   background-position: center; 
 }
+
 .move_middle {
   display: flex;
   justify-content: center;
