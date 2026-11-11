@@ -145,6 +145,7 @@ body {
 
 #fadeSlider {
   width: 100%;
+  accent-color:#8E2834; 
   cursor: pointer;
 }
 
