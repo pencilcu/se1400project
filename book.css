@@ -132,4 +132,25 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+@media(max-width: 768px){
+  body { 
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
+  .left_cover{
+      grid-column: 1; 
+      grid-row: 1/2;
+  }
+  .left_page{
+      grid-column: 1; 
+      grid-row: 1/2;
+  }
+  .right_cover{
+      grid-column: 1; 
+      grid-row: 2/3;
+  }
+  .right_page{
+      grid-column: 1; 
+      grid-row: 2/3;
+  }
+}
