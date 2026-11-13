@@ -9,6 +9,7 @@
 html { 
   scroll-behavior: smooth; 
   height: 100%;
+  margin: 0;
 } 
 
 body { 
@@ -128,6 +129,7 @@ body {
 }
 
 .move_middle {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,6 +164,14 @@ body {
   justify-content: center; 
   align-items: center;
   z-index: 1; 
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 @media(max-width: 768px){
