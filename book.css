@@ -150,6 +150,7 @@ body {
   width: 100%;
   accent-color:#8E2834; 
   cursor: pointer;
+  z-index: 3;
 }
 
 #fadingImage {
