@@ -265,7 +265,6 @@ input:user-invalid, textarea:user-invalid{
   .left_page {
     grid-row: 1 / 2;
     align-self: end;
-    height: 90%
   }
 
   .right_page {
