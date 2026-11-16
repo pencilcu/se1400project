@@ -13,7 +13,7 @@ html, body{
 a {
   font-size: clamp(0.8rem, 0.5vw + 0.875rem, 2rem)
 }
-/* */
+
 body { 
   display: grid;
   font-family: Arial, Helvetica, sans-serif; 
