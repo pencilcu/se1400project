@@ -229,7 +229,6 @@ input:user-invalid, textarea:user-invalid{
 
 @media(max-width: 768px){
   body {
-    height: auto;
     min-height: 100vh;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr;
@@ -244,6 +243,7 @@ input:user-invalid, textarea:user-invalid{
   .left_cover {
     grid-row: 1 / 2;
     align-self: end;
+    height: 100%;
   }
 
   .right_cover {
@@ -254,7 +254,6 @@ input:user-invalid, textarea:user-invalid{
   .left_page,
   .right_page {
     grid-column: 1;
-    height: auto;
     min-height: 40%;
     width: 86%;
     padding: 1.25rem;
@@ -265,6 +264,7 @@ input:user-invalid, textarea:user-invalid{
   .left_page {
     grid-row: 1 / 2;
     align-self: end;
+    height: 90%
   }
 
   .right_page {
