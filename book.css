@@ -208,14 +208,6 @@ form label{
   color: var(--red);
   margin: 0;
 }
-input:not([type="radio"]):not([type="checkbox"]), select, textarea{
-  padding: 0.5rem 0.75rem;
-  border: 2px solid var(--dark-red);
-  border-radius: 0.25rem;
-  font-family: inherit;
-  font-size: 1rem;
-  width: 100%;
-}
 textarea{
   resize: vertical;
 }
@@ -236,36 +228,61 @@ input:user-invalid, textarea:user-invalid{
 }
 
 @media(max-width: 768px){
-  body { 
+  body {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 2rem 0; 
+    gap: 1.5rem;
   }
-  .left_cover{
-    grid-column: 1; 
-    grid-row: 1/2;
-    align-self: end;
+
+  .left_cover,
+  .right_cover {
+    grid-column: 1;
+    height: auto;
+    width: 92%;
+    align-self: stretch; 
   }
-  .left_page{
-    grid-column: 1; 
-    grid-row: 1/2;
-    align-self: end;
+
+  .left_cover {
+    grid-row: 1 / 2;
   }
-  .right_cover{
-    grid-column: 1; 
-    grid-row: 2/3;
-    align-self: start;
+
+  .right_cover {
+    grid-row: 2 / 3;
   }
-  .right_page{
-    grid-column: 1; 
-    grid-row: 2/3;
-    align-self: start;
+
+  .left_page,
+  .right_page {
+    grid-column: 1;
+    height: auto;
+    width: 86%;
+    margin: 16px 0; 
+    padding: 1.25rem;
+    box-sizing: border-box;
+    align-self: center;
   }
-  .computer_edge{
-    grid-column: 1; 
-    grid-row: 1/3;
+
+  .left_page {
+    grid-row: 1 / 2;
   }
-  .computer_screen{
-    grid-column: 1; 
-    grid-row: 1/3;
+
+  .right_page {
+    grid-row: 2 / 3;
+  }
+
+  .computer_edge,
+  .computer_screen {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    height: auto;
+    align-self: stretch;
+  }
+
+  .computer_screen {
+    margin: 16px 0;
   }
 }
+
