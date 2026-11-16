@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primarchs of Warhammer</title>
     <link rel="stylesheet" href="book.css">
+    <script defer src="react.js"></script>
 </head>
 <body>
     <div class = "left_cover" style="background-color: #CE1654;"></div>
     <div class = "left_page">LOL</div>
     <div class = "right_cover" style="background-color: #CE1654;"></div>
-    <div class = "right_page">LOL</div>
+    <div class = "right_page">
+        <fieldset id="choice_buttons">
+        <legend>Did Magnus do anything wrong?</legend>
+            <label><input type="radio" name="choice" value="y"> Yes</label>
+            <label><input type="radio" name="choice" value="n"> No</label>
+        </fieldset>
+        <p id="choice-feedback"></p>
+    </div>
 </body>
 </html>
