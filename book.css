@@ -78,6 +78,18 @@ body {
   justify-self: center;
   align-self: center;
 }
+
+.right_page p {
+  margin: 0; 
+}
+
+.top-right {
+  align-self: flex-end; 
+}
+
+.bottom-left {
+  align-self: flex-start; 
+}
 .computer_edge{
   height: 80%; 
   width: 100%; 
