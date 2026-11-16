@@ -247,13 +247,13 @@ input:user-invalid, textarea:user-invalid{
   }
 
   .left_cover {
-    align-self: end;
     grid-row: 1 / 2;
+    align-self: end;
   }
 
   .right_cover {
-    align-self: start;
     grid-row: 2 / 3;
+    align-self: start;
   }
 
   .left_page,
@@ -268,13 +268,13 @@ input:user-invalid, textarea:user-invalid{
   }
 
   .left_page {
-    align-self: end;
     grid-row: 1 / 2;
+    align-self: end;
   }
 
   .right_page {
-    align-self: start;
     grid-row: 2 / 3;
+    align-self: start;
   }
 
   .computer_edge,
