@@ -22,8 +22,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow-x: auto; 
-  overflow-y: hidden;
+  overflow-x: hidden; 
+  overflow-y: auto;
   grid-template-columns: 0.15fr 1.5fr 1.5fr 0.15fr;
   grid-template-rows: 100%;
   align-items: end;
