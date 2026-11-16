@@ -233,7 +233,7 @@ input:user-invalid, textarea:user-invalid{
     min-height: 100vh;
     overflow-y: auto;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     padding: 2rem 0; 
     gap: 1.5rem;
   }
