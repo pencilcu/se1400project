@@ -11,6 +11,58 @@
     <div class = "left_cover" style="background-color: #4D7374;"></div>
     <div class = "left_page">LOL</div>
     <div class = "right_cover" style="background-color: #4D7374;"></div>
-    <div class = "right_page"></div>
+    <div class = "right_page">
+        <section class="panel" id="purchase_form">
+            <h3>Purchase Here</h3>
+            <form action=/apply method=post>
+            <fieldset>
+              <legend>
+                All forms need to be filled out to submit
+              </legend>
+              <div class="form-group">
+                <label for="first-name">
+                  First Name
+                </label>
+                <input type="text" id="first-name" name="first-name" autocomplete="given-name" required aria-describedby="name-hint">
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">
+                  Last Name
+                </label>
+                <input type="text" id="last-name" name="last-name" autocomplete="family-name" required>
+              </div>
+
+            <div class="form-group">
+                <label for="email">
+                Email Address
+                </label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+              </div>
+
+            <div class="form-group">
+                <label for="phone">
+                  Phone Number
+                </label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 555-555-5555" required>
+              </div>
+
+            <div class="form-group">
+                <label for="address">
+                  Address
+                </label>
+                <input type="adress" id="address" name="adress" autocomplete="address" placeholder="1234 street" required>
+              </div>
+
+            <div class="form-group">
+                <label for="Payment">
+                  Payment
+                </label>
+                <input type="adress" id="payment" name="payment" placeholder="1234" required>
+                <p id="hint" class="field-hint">I wont really ask for your card info, this field accepts any number you put in it</p>
+              </div>
+            </fieldset>
+    </div>
 </body>
 </html>
+
