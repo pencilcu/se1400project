@@ -238,7 +238,6 @@ input:user-invalid, textarea:user-invalid{
   .left_cover,
   .right_cover {
     grid-column: 1;
-    height: auto;
     width: 100%;
   }
 
@@ -256,6 +255,7 @@ input:user-invalid, textarea:user-invalid{
   .right_page {
     grid-column: 1;
     height: auto;
+    min-height: 40%;
     width: 86%;
     padding: 1.25rem;
     box-sizing: border-box;
