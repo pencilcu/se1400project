@@ -249,13 +249,14 @@ input:user-invalid, textarea:user-invalid{
   .right_cover {
     grid-row: 2 / 3;
     align-self: start;
+    height: 100%;
   }
 
   .left_page,
   .right_page {
     grid-column: 1;
-    min-height: 40%;
-    width: 86%;
+    height: 90%;
+    width: 90%;
     padding: 1.25rem;
     box-sizing: border-box;
     align-self: center;
