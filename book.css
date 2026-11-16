@@ -257,7 +257,6 @@ input:user-invalid, textarea:user-invalid{
     grid-column: 1;
     height: auto;
     width: 86%;
-    margin: 16px 0; 
     padding: 1.25rem;
     box-sizing: border-box;
     align-self: center;
