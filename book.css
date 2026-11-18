@@ -247,7 +247,7 @@ input:user-invalid, textarea:user-invalid{
 
 .smaller_text{
   color: white;
-  margin: 5px;
+  padding: 5px;
   font-size: clamp(1rem, 0.4458rem + 2.3333vw, 2.3125rem);
 }
 @media(max-width: 768px){
