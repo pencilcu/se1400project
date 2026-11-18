@@ -252,6 +252,13 @@ button[type="submit"],
   cursor: pointer;
   align-self: flex-start;
 }
+.p {
+  display: none;
+}
+
+.p.visible {
+  display: block; 
+}
 
 input:user-invalid, textarea:user-invalid{
   border-color: var(--dark-red);
