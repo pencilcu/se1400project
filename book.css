@@ -250,7 +250,7 @@ button[type="submit"],
   font-weight: bold;
   border-radius: 0.25rem;
   cursor: pointer;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 .p {
   display: none;
