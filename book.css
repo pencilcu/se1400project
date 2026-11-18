@@ -245,6 +245,11 @@ input:user-invalid, textarea:user-invalid{
   background-color: #fff5f5;
 }
 
+.smaller_text{
+  color: white;
+  margin: 5px;
+  font-size: clamp(1.25rem, -1.0938rem + 7.5vw, 3.125rem);
+}
 @media(max-width: 768px){
   body {
     min-height: 100vh;
