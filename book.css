@@ -246,6 +246,7 @@ input:user-invalid, textarea:user-invalid{
 }
 
 .smaller_text{
+  box-sizing: border-box;
   color: white;
   padding: 5px;
   font-size: clamp(1rem, 0.4458rem + 2.3333vw, 2.3125rem);
