@@ -252,6 +252,19 @@ button[type="submit"]{
   cursor: pointer;
   align-self: flex-end;
 }
+
+.go_back_btn {
+  background-color: var(--dark-red);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
 .p {
   display: none;
 }
