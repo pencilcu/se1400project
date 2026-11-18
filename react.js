@@ -15,5 +15,5 @@ const slider = document.getElementById('fadeSlider');
 const image = document.getElementById('fadingImage');
 
 slider.addEventListener('input', function() {
-  image.style.opacity = fadeSlider.value; 
+  image.style.opacity = this.value;
 });
