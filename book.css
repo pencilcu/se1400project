@@ -240,7 +240,7 @@ button[type="submit"]{
   cursor: pointer;
   align-self: flex-start;
 }
-button[type="submit"],
+
 .flip_btn {
   background-color: var(--dark-red);
   color: white;
