@@ -94,7 +94,7 @@ body {
   align-self: flex-start; 
 }
 .computer_edge{
-  height: 80%; 
+  height: 100dvh; 
   width: 100%; 
   flex-shrink: 0; 
   border-radius: 5px;
@@ -106,7 +106,7 @@ body {
   align-self: center;
 }
 .computer_screen{
-  height: 75%; 
+  height: 50dvh; 
   width: 98%; 
   background-color: black; 
   flex-shrink: 0; 
