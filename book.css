@@ -345,7 +345,6 @@ input:user-invalid, textarea:user-invalid{
   .computer_screen {
     grid-column: 1;
     grid-row: 1 / 3;
-    height: auto;
   }
 
   .computer_screen {
