@@ -251,6 +251,7 @@ button[type="submit"]{
   border-radius: 0.25rem;
   cursor: pointer;
   align-self: flex-end;
+  grid-row: 4/5;
 }
 
 .go_back_btn {
@@ -263,6 +264,8 @@ button[type="submit"]{
   border-radius: 0.25rem;
   cursor: pointer;
   align-self: flex-start;
+  grid-row:1/2;
+
 }
 
 .p {
@@ -284,6 +287,7 @@ input:user-invalid, textarea:user-invalid{
   padding: 5px;
   font-size: clamp(1rem, 0.4458rem + 2.3333vw, 2.3125rem);
 }
+
 @media(max-width: 768px){
   body {
     min-height: 100vh;
@@ -338,6 +342,14 @@ input:user-invalid, textarea:user-invalid{
 
   .computer_screen {
     margin: 16px 0;
+  }
+  .go_back_btn{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .flip_btn{
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 }
 
