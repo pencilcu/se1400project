@@ -273,6 +273,7 @@ button[type="submit"]{
   display: flex;
   justify-self: flex-start;
   align-self: flex-end;
+  text-decoration: none;
 }
 
 .p {
