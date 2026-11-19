@@ -271,8 +271,8 @@ button[type="submit"]{
   grid-column: 1/2; 
   grid-row: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-self: flex-start;
+  align-self: flex-end;
 }
 
 .p {
@@ -352,12 +352,12 @@ input:user-invalid, textarea:user-invalid{
   }
   .go_back_btn{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     z-index: 9;
   }
   .flip_btn{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     z-index: 10;
   }
 }
