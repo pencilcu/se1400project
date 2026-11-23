@@ -132,7 +132,7 @@ body {
 }
 .move_middle {
   display: flex;
-  flex-direction: column; /* Stacks your <p> tags vertically instead of side-by-side */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   text-align: center;
