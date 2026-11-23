@@ -142,19 +142,18 @@ body {
   /* animation */
 @keyframes knifeAnimation {
   0% {
-    transform: translate(-30px, 30px);
+    transform: translate(0px, 0px);
   }
   50% {
-    transform: translate(30px, -30px); 
+    transform: translate(-100px, 100px); 
   }
   100% {
-    transform: translate(-30px, 30px);
+    transform: translate(0px, 0px);
   }
 }
 .knife {
   width: 100px;
   height: 100px;
-  position: relative;
   background: url('pocket-knife.png'); 
   animation-name: knifeAnimation;
   animation-duration: 4s;
