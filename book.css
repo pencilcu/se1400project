@@ -154,7 +154,9 @@ body {
 .knife {
   width: 100px;
   height: 100px;
-  position: relative;
+  position: absolute;
+  inset: 0;
+  margin: auto;
   background: url('pocket-knife.png'); 
   animation-name: knifeAnimation;
   animation-duration: 4s;
