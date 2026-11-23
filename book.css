@@ -60,6 +60,7 @@ body {
   justify-self: center;
   align-self: center;
   overflow-y: auto;
+  overflow-x: auto;
 }
 .right_cover{
   height: 80%; 
@@ -87,6 +88,8 @@ body {
   z-index: 2;
   justify-self: center;
   align-self: center;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 .computer_edge{
   height: 80%; 
