@@ -77,8 +77,6 @@ body {
 .right_page{
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center;  
   height: 75%; 
   width: 95%; 
   background-color: var(--page-white); 
@@ -132,7 +130,15 @@ body {
 .bottom-left {
   align-self: flex-start; 
 }
-
+.move_middle {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%; 
+}
 
 /* interactive */
   /* animation */
