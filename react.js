@@ -34,3 +34,11 @@ if (flip_btn && second_page.length > 0) {
     });
   });
 }
+
+/*fulgrim sword interactive*/
+
+const sword_btn = document.querySelector("#swrd");
+if (sword_btn) {
+  sword_btn.addEventListener('click', function(event) {
+  });
+}
