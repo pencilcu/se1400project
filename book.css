@@ -119,6 +119,18 @@ body {
   padding: 2rem;
   overflow-y: auto;
 }
+.sword{
+  position: relative; 
+  display: inline-block;
+  background-image: url('sword.jpg'); 
+  background-size: contain; 
+  width:40%; 
+  height:auto;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
 
 /* positioning */
 .right_page p {
