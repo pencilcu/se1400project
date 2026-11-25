@@ -38,7 +38,20 @@ if (flip_btn && second_page.length > 0) {
 /*fulgrim sword interactive*/
 
 const sword_btn = document.querySelector("#swrd");
+const sword_tx = document.querySelector("#sword_text");
+let clickCount = 0;
+
 if (sword_btn) {
   sword_btn.addEventListener('click', function(event) {
+  clickCount++;
+    if (clickCount === 1){
+      sword_tx.textContent = "Keep going";
+    }
+    else if (clickCount === 2){
+      sword_tx.textContent = "again";
+    }
+    else if (clickCount === 3){
+      sword_tx.textContent = ">:D";
+    }
   });
 }
