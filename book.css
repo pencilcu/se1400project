@@ -120,12 +120,14 @@ body {
   overflow-y: auto;
 }
 .sword{
-  position: relative; 
-  display: inline-block;
-  background-image: url('sword.jpg'); 
-  background-size: contain; 
-  width:40%; 
-  height:auto;
+  width: 40%;
+  height: auto; 
+  background-image: url('sword.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent; 
+  border: none;
   padding: 0;
   cursor: pointer;
 }
