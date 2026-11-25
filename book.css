@@ -121,7 +121,7 @@ body {
 }
 .sword{
   width: 40%;
-  aspect-ratio: 1 / 1;
+  height: 40%;
   background-image: url('sword.jpg');
   background-size: contain;
   background-repeat: no-repeat;
