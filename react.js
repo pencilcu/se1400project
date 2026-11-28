@@ -39,6 +39,7 @@ if (flip_btn && second_page.length > 0) {
 
 const sword_btn = document.querySelector("#swrd");
 const sword_tx = document.querySelector("#sword_text");
+const modal = document.querySelector("#modal");
 let clickCount = 0;
 
 if (sword_btn) {
@@ -48,10 +49,11 @@ if (sword_btn) {
       sword_tx.textContent = "Keep going";
     }
     else if (clickCount === 2){
-      sword_tx.textContent = "again";
+      sword_tx.textContent = "Again";
     }
     else if (clickCount === 3){
       sword_tx.textContent = ">:D";
+      modal.classList.toggle("visible");
     }
   });
 }

@@ -265,8 +265,27 @@ input:user-invalid, textarea:user-invalid{
   border-color: var(--dark-red);
   background-color: #fff5f5;
 }
+ /* popup */
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal__window {
+  position: relative;
+  background-color: var(--red);
+  padding: 4em 2em;
+}
 
-/* extra buttons */
+
+ /* extra buttons */
 .flip_btn {
   background-color: var(--dark-red);
   color: white;
