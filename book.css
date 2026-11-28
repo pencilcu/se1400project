@@ -273,17 +273,19 @@ input:user-invalid, textarea:user-invalid{
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,.5);
-    display: flex;
     justify-content: center;
     align-items: center;
     display: none;
+    z-index: 1000;
 }
 .modal__window {
   position: relative;
-  background-color: var(--red);
+  background-color: var(--blue-green);
   padding: 4em 2em;
 }
-
+#modal.visible{
+  display: flex;
+}
 
  /* extra buttons */
 .flip_btn {

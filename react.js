@@ -54,6 +54,8 @@ if (sword_btn) {
     else if (clickCount === 3){
       sword_tx.textContent = ">:D";
       modal.classList.toggle("visible");
+      setTimeout(() => {modal.classList.toggle("visible");
+      }, 2000);
     }
   });
 }
